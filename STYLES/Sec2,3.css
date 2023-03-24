@@ -1,0 +1,257 @@
+/* SECTION 2  */
+
+.sec2{
+    background-color: #2f3c4d;
+}
+
+.sec3, .sec4, .sec5, .sec6{
+    background-color: #293444;
+}
+
+#aboutMe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3c4d;
+    
+}
+
+#myPic{
+    position: relative;
+    box-shadow: -8px 8px 4px rgb(22, 21, 21);
+    opacity: 75%;
+    margin-top: 20px;
+}
+
+
+#picture{
+    text-align: center;
+}
+
+
+#myInfo{
+    position: relative;
+    margin-left: 30px;
+    
+}
+
+#title2{
+    color: whitesmoke;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+
+#title2::before{
+    content: "";
+    position: absolute;
+    margin-top:50px;
+    width: 195px;
+    height: 1.5px;
+    background: linear-gradient(to right, transparent, #16c0f0, transparent );
+}
+
+#title2::after{
+    content: "";
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 47px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #16c0f0;
+    animation: scaling 1s ease-in-out infinite;
+}
+
+@keyframes scaling{
+    0%{transform: scale(0.2); opacity: 30%;}
+    50%{transform: scale(1); opacity: 100%;}
+}
+
+
+#myInfo h2{
+    padding-top: 40px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+#myInfo h3{
+    color:#59beec ;
+    margin-bottom: 15px;
+}
+
+.text{
+    color: #C7C5C7;
+    line-height: 30px;
+    padding-right: 50px;
+}
+
+.line2{
+    content: "";
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    left: 0;
+    width: 95%;
+    height: 1.5px;
+    background:#292b2e;
+    border-bottom: .5px ;
+    border-color: #C7C5C7;
+}
+
+#personalInfo{
+    display: flex;
+    flex-direction: row;
+    /* font-size:1.1vw; */
+}
+
+.box1{
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+.box1 a, .box2  a{
+    text-decoration: none;
+}
+
+.box2{
+    margin-left: 150px;
+    line-height: 60px;
+
+}
+
+#personalInfo p{
+    color:#59beec ;
+    display: inline;
+    
+}
+
+
+#personalInfo span{
+    color: #C7C5C7;
+    margin-left: 6px;
+}
+
+a{
+    color: #C7C5C7;
+}
+
+#cv-btn{   
+    background-color: transparent;
+    color: #59beec;
+    font-size: 18px;
+    padding: 12px 40px; 
+    margin-top: 70px;
+    margin-left: 13px;
+    margin-bottom: 40px;
+    border-width: 2px;
+    border-color: #59beec;
+    border-radius: 30px;
+    /* font-size:1.2vw; */
+}
+
+#cv-btn:hover{
+    background: #59beec;
+    color: white;
+    border: none;
+    padding: 14px 42px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+/* SECTION 3  */
+
+.top-note{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#title3{
+    color: white;
+    margin-left: 65px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#title3::before{
+    content: "";
+    position: absolute;
+    margin-top:50px;
+    width: 210px;
+    height: 1.5px;
+    background: linear-gradient(to right, transparent, #16c0f0, transparent );
+}
+
+#title3::after{
+    content: "";
+    position: absolute;
+    margin-left: -115px;
+    margin-top: 47px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #16c0f0;
+    animation: scaling 1s ease-in-out infinite;
+}
+
+
+#boxes-wrapper3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-wrapper{
+    position: relative;
+    background-color: rgb(238, 238, 238);
+    border: 2.5px solid #4A90B4;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.boxes3{
+    background-color: #2F3C4D;
+    margin: 15px;
+    padding: 40px 30px;
+    border-bottom: 2px solid #4A90B4;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes3:hover{
+    margin-top: -5px;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgb(22, 21, 21);
+    transition: all 0.5s linear;
+    border-color: #59beec;
+}
+
+.boxes3 h4{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.boxes3 p{
+    color: #C7C5C7;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+    height: 15px;
+}
